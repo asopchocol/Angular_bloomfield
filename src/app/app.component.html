@@ -1,0 +1,15 @@
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center">
+  <h1>
+    TaDa! Welcome to {{title}}!!
+  </h1>
+  <nav class="nav navbar-exapnd navbar-light bg-light">
+    <a class='navbar-brand'>{{pageTitle}}</a>
+    <li><a class='nav-link' [routerLink]="['/welcome']">Home</a></li>
+    <li><a class='nav-link' [routerLink]="['/products']">Product List</a></li>
+  </nav>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
